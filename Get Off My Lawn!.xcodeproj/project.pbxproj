@@ -48,6 +48,7 @@
 		D954F916189B17A00024CFB1 /* playbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D954F90A189B17A00024CFB1 /* playbutton@2x.png */; };
 		D954F919189B272C0024CFB1 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = D954F917189B272C0024CFB1 /* launch.png */; };
 		D954F91A189B272C0024CFB1 /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D954F918189B272C0024CFB1 /* launch@2x.png */; };
+		D954F91D189B2A410024CFB1 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = D954F91C189B2A410024CFB1 /* logo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		D954F90A189B17A00024CFB1 /* playbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playbutton@2x.png"; sourceTree = "<group>"; };
 		D954F917189B272C0024CFB1 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		D954F918189B272C0024CFB1 /* launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@2x.png"; sourceTree = "<group>"; };
+		D954F91C189B2A410024CFB1 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 		D954F8E1189B16FD0024CFB1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D954F91B189B28E90024CFB1 /* Other */,
 				D954F8E4189B17130024CFB1 /* Backgrounds */,
 				D954F8E3189B170E0024CFB1 /* Icons */,
 				D954F8E2189B17080024CFB1 /* Buttons */,
@@ -263,6 +266,14 @@
 				D954F8E8189B17560024CFB1 /* backgroundtext@2x.png */,
 			);
 			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		D954F91B189B28E90024CFB1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D954F91C189B2A410024CFB1 /* logo2.png */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +380,7 @@
 				D954F8FC189B177E0024CFB1 /* Icon.png in Resources */,
 				D954F913189B17A00024CFB1 /* pausebutton.png in Resources */,
 				D954F8F9189B177E0024CFB1 /* Icon-Small-50@2x.png in Resources */,
+				D954F91D189B2A410024CFB1 /* logo2.png in Resources */,
 				D954F914189B17A00024CFB1 /* pausebutton@2x.png in Resources */,
 				D954F91A189B272C0024CFB1 /* launch@2x.png in Resources */,
 			);
