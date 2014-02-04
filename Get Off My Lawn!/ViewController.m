@@ -14,10 +14,21 @@
 
 @implementation ViewController
 
+@synthesize label = m_label;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Get the version number info from the info.plist file
+    NSDictionary* infoDictionary = [[NSBundle mainBundle] infoDictionary];
+    NSString* version = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
+    NSString* formatted = [NSString stringWithFormat:@"Version: %@", version];
+    
+	// Do any additional setup after loading the view, typically from a nib.
+    // [m_Label setText:version];
+    [m_Label setText:formatted];
 }
 
 - (void)didReceiveMemoryWarning
