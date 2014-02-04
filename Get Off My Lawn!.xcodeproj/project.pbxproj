@@ -15,6 +15,8 @@
 		D911EC13189B356700F64DFE /* SF Arch Rival Extended.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D911EC0B189B356700F64DFE /* SF Arch Rival Extended.ttf */; };
 		D911EC14189B356700F64DFE /* SF Arch Rival Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D911EC0C189B356700F64DFE /* SF Arch Rival Italic.ttf */; };
 		D911EC15189B356700F64DFE /* SF Arch Rival.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D911EC0D189B356700F64DFE /* SF Arch Rival.ttf */; };
+		D9315E6D18A179EB006C3CA1 /* GameSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9315E6B18A179EB006C3CA1 /* GameSettings.cpp */; };
+		D9315E7218A18A0D006C3CA1 /* OptionsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9315E7118A18A0D006C3CA1 /* OptionsViewController.mm */; };
 		D954F8AD189B0EEA0024CFB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954F8AC189B0EEA0024CFB1 /* Foundation.framework */; };
 		D954F8AF189B0EEA0024CFB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954F8AE189B0EEA0024CFB1 /* CoreGraphics.framework */; };
 		D954F8B1189B0EEA0024CFB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954F8B0189B0EEA0024CFB1 /* UIKit.framework */; };
@@ -88,6 +90,10 @@
 		D911EC0B189B356700F64DFE /* SF Arch Rival Extended.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Arch Rival Extended.ttf"; sourceTree = "<group>"; };
 		D911EC0C189B356700F64DFE /* SF Arch Rival Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Arch Rival Italic.ttf"; sourceTree = "<group>"; };
 		D911EC0D189B356700F64DFE /* SF Arch Rival.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Arch Rival.ttf"; sourceTree = "<group>"; };
+		D9315E6B18A179EB006C3CA1 /* GameSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameSettings.cpp; sourceTree = "<group>"; };
+		D9315E6C18A179EB006C3CA1 /* GameSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSettings.h; sourceTree = "<group>"; };
+		D9315E7018A18A0D006C3CA1 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		D9315E7118A18A0D006C3CA1 /* OptionsViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OptionsViewController.mm; sourceTree = "<group>"; };
 		D954F8A9189B0EEA0024CFB1 /* Get Off My Lawn!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Off My Lawn!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D954F8AC189B0EEA0024CFB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D954F8AE189B0EEA0024CFB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -171,6 +177,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9315E6A18A179D6006C3CA1 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				D9315E6B18A179EB006C3CA1 /* GameSettings.cpp */,
+				D9315E6C18A179EB006C3CA1 /* GameSettings.h */,
+			);
+			name = "C++";
+			sourceTree = "<group>";
+		};
 		D954F8A0189B0EEA0024CFB1 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +219,7 @@
 		D954F8B2189B0EEA0024CFB1 /* Get Off My Lawn! */ = {
 			isa = PBXGroup;
 			children = (
+				D9315E6A18A179D6006C3CA1 /* C++ */,
 				D954F8E1189B16FD0024CFB1 /* Resources */,
 				D9697B03189B3BB60075D364 /* iPad */,
 				D954F8BB189B0EEA0024CFB1 /* AppDelegate.h */,
@@ -214,6 +230,8 @@
 				D954F8C2189B0EEA0024CFB1 /* ViewController.m */,
 				D954F8C4189B0EEA0024CFB1 /* Images.xcassets */,
 				D954F8B3189B0EEA0024CFB1 /* Supporting Files */,
+				D9315E7018A18A0D006C3CA1 /* OptionsViewController.h */,
+				D9315E7118A18A0D006C3CA1 /* OptionsViewController.mm */,
 			);
 			path = "Get Off My Lawn!";
 			sourceTree = "<group>";
@@ -481,7 +499,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9315E6D18A179EB006C3CA1 /* GameSettings.cpp in Sources */,
 				D954F8C3189B0EEA0024CFB1 /* ViewController.m in Sources */,
+				D9315E7218A18A0D006C3CA1 /* OptionsViewController.mm in Sources */,
 				D954F8BD189B0EEA0024CFB1 /* AppDelegate.m in Sources */,
 				D954F8B9189B0EEA0024CFB1 /* main.m in Sources */,
 			);
